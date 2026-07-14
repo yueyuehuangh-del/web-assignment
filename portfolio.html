@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Link to our universal stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Personal Website</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="trivia.html">Trivia</a>
+  </nav>
+
+  <div class="container">
+    
+    <aside class="left-sidebar">
+      <h3>Useful Links</h3>
+      <ul>
+        <li><a href="https://github.com" target="_blank">GitHub Official</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a></li>
+        <li><a href="https://www.w3schools.com" target="_blank">W3Schools Tutorials</a></li>
+      </ul>
+    </aside>
+
+    <main>
+      <h2>My Portfolio</h2>
+      <p>Here are some of my projects, academic works, and personal activities:</p>
+      
+      <!-- Styled CSS Table (Matches the required 5 items and 4 fields) -->
+      <table class="portfolio-table">
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Project/Activity Name</th>
+            <th>Description</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Ethics Case Analysis</td>
+            <td>Analyzed the CrowdStrike IT outage using the Line Drawing Method.</td>
+            <td>April 2026</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>3D Digital Design</td>
+            <td>Created 3D clothing models and restoration concepts using Blender.</td>
+            <td>April 2026</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Bass Performance</td>
+            <td>Practiced and prepared setlists for the Keionbu welcome event.</td>
+            <td>May 2026</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Python Programming</td>
+            <td>Developed basic data manipulation scripts for academic assignments.</td>
+            <td>May 2026</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Personal Website</td>
+            <td>Developed a responsive 3-page personal site using HTML, CSS, and JS.</td>
+            <td>July 2026</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <!-- Right Sidebar: Contact Form -->
+    <aside class="right-sidebar">
+      <h3>Contact Me</h3>
+      <form class="contact-form" action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="yourname@example.com">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required placeholder="Write your message here..."></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </aside>
+
+  </div>
+
+  <footer>
+    <p>© 2026 My Personal Website | Created: July 2026</p>
+    <p>
+      Find me on: 
+      <a href="https://github.com" target="_blank">GitHub</a> | 
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+
+</body>
+</html>
